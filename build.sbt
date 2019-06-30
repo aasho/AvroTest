@@ -8,6 +8,7 @@ val sparkVersion = "2.4.3"
 
 libraryDependencies += "org.apache.spark" %% "spark-core" % sparkVersion % "provided"
 libraryDependencies += "org.apache.spark" %% "spark-streaming" % sparkVersion % "provided"
+libraryDependencies += "org.apache.spark" %% "spark-hive" % sparkVersion % "provided"
 libraryDependencies += "org.apache.spark" %% "spark-avro" % sparkVersion
 libraryDependencies += "org.apache.spark" %% "spark-sql" % sparkVersion % "provided"
 
